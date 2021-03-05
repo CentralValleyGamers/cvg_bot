@@ -1,0 +1,35 @@
+{
+  "name": "cvg_bot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Marcelo Alves",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marceloalves/cvg-bot"
+  },
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "semi": false
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.5.1",
+    "dotenv-flow": "^3.2.0",
+    "twitch": "^4.4.12",
+    "twitch-auth": "^4.4.12"
+  },
+  "devDependencies": {
+    "husky": "4.3.8",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+}
